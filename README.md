@@ -118,6 +118,8 @@ Additionally, if you don't have a DNS content blocking solution in place *(you s
 
 * ⭐️ HaGeZi/xRuffKez's Newly Registered Domains (14 days): `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
 
+* ⭐️ OISD - Big: `https://big.oisd.nl`
+
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * ⭐️ 1Hosts **Pro**: `https://o0.pages.dev/Pro/adblock.txt`
