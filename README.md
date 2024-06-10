@@ -116,7 +116,7 @@ Additionally, if you don't have a DNS content blocking solution in place *(you s
 
 * ⭐️ HaGeZi's Threat Intelligence Feeds - IPs: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt`
 
-* ⭐️ HaGeZi/xRuffKez's Newly Registered Domains (14 days): `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrds.10.txt`
+* ⭐️ HaGeZi/xRuffKez's Newly Registered Domains (14 days): `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
