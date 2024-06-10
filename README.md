@@ -98,6 +98,8 @@ I would recommend importing the following lists:
 
 * ⭐️ Divested Fingerprinting Blocklist - `https://divested.dev/blocklists/Fingerprinting.ubl`
 
+* ⭐️ HaGeZi's Threat Intelligence Feeds - IPs: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
+
 * ⭐️ Yokoffing's `Block third party fonts` - `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
 
 Additionally, if you don't have a DNS content blocking solution in place *(you should)*, or you just can't use the relevant list on your DNS blocker, you should import the following:
@@ -113,8 +115,6 @@ Additionally, if you don't have a DNS content blocking solution in place *(you s
 * ⭐️ HaGeZi Multi PRO++: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt`
 
 * ⭐️ HaGeZi's Threat Intelligence Feeds: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt`
-
-* ⭐️ HaGeZi's Threat Intelligence Feeds - IPs: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt`
 
 * ⭐️ HaGeZi/xRuffKez's Newly Registered Domains (14 days): `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
 
