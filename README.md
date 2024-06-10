@@ -132,7 +132,7 @@ Once you're finished choosing your lists, don't forget to select **Apply changes
 
 This is where it can really depend on you and your set-up. I'll provide my recommendations and filters here I myself use below:
 
-First, I would highly recommend setting the following to protect against [IDN Homograph attacks](https://wikipedia.org/wiki/IDN_homograph_attack):
+First, I would highly recommend setting the following to protect against [IDN Homograph attacks](https://wikipedia.org/wiki/IDN_homograph_attack) *You don't need to set this if your DNS provider already provides IDN Homograph Attacks Protection (i.e. NextDNS)*:
 
 `xn--*`
 
