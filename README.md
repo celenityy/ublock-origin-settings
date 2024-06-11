@@ -233,7 +233,7 @@ I also set the following to unbreak X/Twitter based off the filters we set above
 
 `twitter.com x.com * noop`
 
-⭐️ If you block 3rd party connections like me, then I would strongly recommend also using the [LocalCDN](https://www.localcdn.org/) extension, as this will reduce breakage.
+⭐️ If you block 3rd party connections like me, then I would strongly recommend also using the [LocalCDN](https://www.localcdn.org/) extension with the following settings, as this will reduce breakage:
 
 # Basic
 
@@ -242,6 +242,7 @@ I also set the following to unbreak X/Twitter based off the filters we set above
 # Advanced
 
 **Block Google Fonts** -> ❌ *This is already covered by Yokoffing's `Block third party fonts` list that we added, leaving Google Fonts blocked here as well will just cause issues & breakage*
+
 
 Now, you should add the following rules in uBlock Origin for LocalCDN to be active:
 
