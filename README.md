@@ -227,6 +227,12 @@ I then set the following to allow CAPTCHAs for sites:
 
 `* www.gstatic.com * noop`
 
+I also set the following to unbreak X/Twitter based off the filters we set above:
+
+`x.com twitter.com * noop`
+
+`twitter.com x.com * noop`
+
 ⭐️ If you block 3rd party connections like me, then I would strongly recommend also using the [LocalCDN](https://www.localcdn.org/) extension, as this will reduce breakage.
 
 # Basic
