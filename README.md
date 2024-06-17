@@ -94,39 +94,43 @@ Custom:
 
 I would recommend importing the following lists:
 
-* ⭐️ Actually Legitimate URL Shortener Tool - `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt`
+* ⭐️ `Actually Legitimate URL Shortener Tool` - `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt`
 
-* ⭐️ Divested Fingerprinting Blocklist - `https://divested.dev/blocklists/Fingerprinting.ubl`
+* ⭐️ `Divested - Fingerprinting` - `https://divested.dev/blocklists/Fingerprinting.ubl`
 
-* ⭐️ HaGeZi's Threat Intelligence Feeds - IPs: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
+* ⭐️ `HaGeZi's Threat Intelligence Feeds - IPs`: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
 
-* ⭐️ pfBlockerNG MS-1: `https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/7290e0681bcd07415420b5c80a253652fd13f840/MS-1` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
+* ⭐️ `pfBlockerNG MS-1`: `https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/7290e0681bcd07415420b5c80a253652fd13f840/MS-1` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
 
-* ⭐️ Yokoffing's `Block third party fonts` - `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
+* ⭐️ Yokoffing's `Block third party fonts`: `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
 
 Additionally, if you don't have a DNS content blocking solution in place *(you should)*, or you just can't use the relevant list on your DNS blocker, you should import the following:
 
-* ⭐️ Dandelion Sprout's Anti-Malware List: `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt`
+* ⭐️ My `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock.txt`
 
-* ⭐️ Divested Combined Blocklist: `https://divested.dev/hosts-domains-wildcards`
+* ⭐️ `Dandelion Sprout's Anti-Malware List`: `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt`
 
-* ⭐️ HaGeZi's Badware Host Blocking: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt`
+* ⭐️ `Divested Combined Blocklist`: `https://divested.dev/hosts-domains-wildcards`
 
-* ⭐️ HaGeZi's Most Abused TLDs: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt`
+* ⭐️ `HaGeZi's Badware Host Blocking`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt`
 
-* ⭐️ HaGeZi Multi PRO++: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt`
+* ⭐️ `HaGeZi's Most Abused TLDs`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt`
 
-* ⭐️ HaGeZi's Threat Intelligence Feeds: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt`
+* ⭐️ `HaGeZi Multi PRO++`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt`
 
-* ⭐️ HaGeZi/xRuffKez's Newly Registered Domains (14 days): `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
+* ⭐️ `HaGeZi's Threat Intelligence Feeds`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt`
 
-* ⭐️ OISD - Big: `https://big.oisd.nl`
+* ⭐️ `HaGeZi/xRuffKez's Newly Registered Domains (14 days)`: `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
+
+* ⭐️ `OISD - Big`: `https://big.oisd.nl`
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* ⭐️ 1Hosts **Pro**: `https://o0.pages.dev/Pro/adblock.txt`
+* ⭐️ My `BadBlock +` instead of `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock_plus.txt`
 
-* ⭐️ HaGeZi Multi **Ultimate** instead of HaGezi Multi **Pro++**: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt`
+* ⭐️ `1Hosts Pro`: `https://o0.pages.dev/Pro/adblock.txt`
+
+* ⭐️ `HaGeZi Multi` **Ultimate** instead of `HaGezi Multi` **Pro++**: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt`
 
 Once you're finished choosing your lists, don't forget to select **Apply changes** & **Update now**.
 
