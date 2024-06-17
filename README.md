@@ -126,7 +126,7 @@ Additionally, if you don't have a DNS content blocking solution in place *(you s
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* ⭐️ My `BadBlock +` instead of `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock_plus.txt`
+* ⭐️ My `BadBlock` **+** instead of `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock_plus.txt`
 
 * ⭐️ `1Hosts Pro`: `https://o0.pages.dev/Pro/adblock.txt`
 
