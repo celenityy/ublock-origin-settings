@@ -8,21 +8,25 @@ My recommendations for the ultimate configuration of uBlock Origin :)
 
 Privacy:
 
-**Disable pre-fetching (to prevent any connection for blocked network requests)** -> ✅
+* **Disable pre-fetching (to prevent any connection for blocked network requests)** -> ✅
 
-**Disable hyperlink auditing** -> ✅
+* **Disable hyperlink auditing** -> ✅
 
-**Block CSP reports** -> ✅
+* **Block CSP reports** -> ✅
 
-**Uncloak canonical names** -> ✅
+* **Uncloak canonical names** -> ✅
+
+<br>
 
 Default behavior:
 
-**Disable JavaScript** -> ✅ *(This **will** cause breakage, but it heavily improves privacy & security, so I'd recommend enabling it if possible and if you're willing to re-enable JavaScript that need it)*
+* **Disable JavaScript** -> ✅ *(This **will** cause breakage, but it heavily improves privacy & security, so I'd recommend enabling it if possible and if you're willing to re-enable JavaScript that need it)*
+
+<br>
 
 Advanced:
 
-**I am an advanced user** -> ✅
+* **I am an advanced user** -> ✅
 
 # Filter lists
 
@@ -40,6 +44,8 @@ Built-in:
 
 * ⭐️ `uBlock filters` -> ✅
 
+<br>
+
 Ads:
 
 * ⭐️ `EasyList` -> ✅
@@ -47,6 +53,8 @@ Ads:
 * ⭐️ `AdGuard - Ads` -> ✅
 
 * ⭐️ `AdGuard - Mobile Ads` -> ✅
+
+<br>
 
 Privacy:
 
@@ -58,11 +66,15 @@ Privacy:
 
 * ⭐️ `Block Outsider Intrusion into LAN` -> ✅
 
+<br>
+
 Malware protection, security:
 
 * ⭐️ `Online Malicious URL Blocklist` -> ✅
 
 * ⭐️ `Phishing URL Blocklist` -> ✅
+
+<br>
 
 Multipurpose:
 
@@ -70,11 +82,15 @@ Multipurpose:
 
 * ⭐️ `Dan Pollock's hosts file` -> ✅
 
+<br>
+
 Cookie notices:
 
 * ⭐️ `EasyList/uBO - Cookie Notices` -> ✅
 
 * ⭐️ `AdGuard/uBO - Cookie Notices` -> ✅
+
+<br>
 
 Social widgets:
 
@@ -84,6 +100,8 @@ Social widgets:
 
 * ⭐️ `Fanboy - Anti-Facebook` -> ✅
 
+<br>
+
 Annoyances:
 
 * ⭐️ `EasyList - Annoyances` -> ✅
@@ -91,6 +109,8 @@ Annoyances:
 * ⭐️ `AdGuard - Annoyances` -> ✅
 
 * ⭐️ `uBlock filters - Annoyances` -> ✅
+
+<br>
 
 Custom:
 
@@ -241,16 +261,17 @@ I also set the following to unbreak X/Twitter based off the filters we set above
 
 ⭐️ If you block 3rd party connections like me, then I would strongly recommend also using the [LocalCDN](https://www.localcdn.org/) extension with the following settings, as this will reduce breakage:
 
-# Basic
+# LocalCDN -> Basic
 
 **Hide donation button** -> ✅
 
-# Advanced
+# LocalCDN -> Advanced
 
 **Block Google Fonts** -> ❌ *This is already covered by Yokoffing's `Block third party fonts` list that we added, leaving Google Fonts blocked here as well will just cause issues & breakage*
 
+<br>
 
-Now, you should add the following rules in uBlock Origin for LocalCDN to be active:
+Now, back to uBlock Origin, you should add the following rules in uBlock Origin for LocalCDN to be active:
 
 `* ajax.googleapis.com * noop`
 
