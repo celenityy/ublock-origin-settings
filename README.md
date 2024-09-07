@@ -2,7 +2,7 @@
 
 My recommendations for the ultimate configuration of uBlock Origin :)
 
-**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/Magnesium1062/ublock-origin-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/Retold3202/ublock-origin-settings).
+**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/ublock-origin-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/celenityy/ublock-origin-settings).
 
 # Settings
 
@@ -120,15 +120,11 @@ I would recommend importing the following lists:
 
 * ⭐️ `Divested - Fingerprinting` - `https://divested.dev/blocklists/Fingerprinting.ubl`
 
-* ⭐️ `HaGeZi's Threat Intelligence Feeds - IPs`: `https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
-
-* ⭐️ `pfBlockerNG MS-1`: `https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/7290e0681bcd07415420b5c80a253652fd13f840/MS-1` *(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)*
-
 * ⭐️ Yokoffing's `Block third party fonts`: `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
 
 Additionally, if you don't have a DNS content blocking solution in place *(you should)*, or you just can't use the relevant list on your DNS blocker, you should import the following:
 
-* ⭐️ My `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock.txt`
+* ⭐️ My `BadBlock`: `https://codeberg.org/celenity/BadBlock/raw/branch/main/abp/badblock.txt`
 
 * ⭐️ `Dandelion Sprout's Anti-Malware List`: `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt`
 
@@ -148,7 +144,7 @@ Additionally, if you don't have a DNS content blocking solution in place *(you s
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* ⭐️ My `BadBlock` **+** instead of `BadBlock`: `https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/abp/badblock_plus.txt`
+* ⭐️ My `BadBlock` **+** instead of `BadBlock`: `https://codeberg.org/celenity/BadBlock/raw/branch/main/abp/badblock_plus.txt`
 
 * ⭐️ `1Hosts Pro`: `https://o0.pages.dev/Pro/adblock.txt`
 
@@ -411,6 +407,6 @@ Once you're done configuring your rules here, select **Save** & **Commit**.
 
 * Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), & [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/)).
 
-* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/Magnesium1062/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/). *(Even if you have a private/secure DNS provider set on your OS/network level, make sure to also set it in your browser as well, so that you can take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello))*
+* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/celenity/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/). *(Even if you have a private/secure DNS provider set on your OS/network level, make sure to also set it in your browser as well, so that you can take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello))*
 
 * Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). **NOTE:** You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
