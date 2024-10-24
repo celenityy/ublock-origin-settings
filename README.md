@@ -38,117 +38,223 @@ Advanced:
 
 **Ignore generic cosmetic filters** -> ❌
 
-Here's where it gets fun, to the lists. I would generally recommend enabling **all** of the built-in filters, **besides** those under the `Regions, languages` category. These are all extremely carefully picked lists with strong coverage and minimal breakage, and **I would recommend enabling them for the best coverage possible**.
+# Lists
 
-Built-in:
+I would generally recommend configuring your filterlists as follows. This configuration matches [what my Phoenix project uses](https://codeberg.org/celenity/Phoenix/wiki/Content-Blocking.md), & is carefully considered for a balance between privacy, security, usability, & maintaining optimal performance.
 
-* ⭐️ `uBlock filters` -> ✅
+## Built-in Lists
+
+We'll first go over lists built-in to uBlock Origin (as of October 23, 2024).
+
+> [!NOTE]
+>I won't detail the **Regions, languages** category, as it heavily depends on you personally & your situation. My recommendation would be to **only** enable the lists you need here, if you need them at all.
+
+> [!TIP]
+> 😇 means the list is enabled by default.
+>
+> ✅ means the list is already included, but you should enable it.
+
+* <details><summary>Built-in</summary>
+
+    * <details><summary>✅ uBlock filters 😇</summary>
+
+        * [x] [uBlock filters – Ads](https://ublockorigin.github.io/uAssets/filters/filters.txt) 😇
+        * [x] [uBlock filters – Badware risks](https://ublockorigin.github.io/uAssets/filters/badware.txt) 😇
+        * [x] [uBlock filters – Privacy](https://ublockorigin.github.io/uAssets/filters/privacy.txt) 😇
+        * [x] [uBlock filters – Quick fixes](https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt) 😇
+        * [x] [uBlock filters – Unbreak](https://ublockorigin.github.io/uAssets/filters/unbreak.txt) 😇
+
+        </details>
+</details>
+
+* <details><summary>Ads</summary>
+
+    * [x] [EasyList](https://ublockorigin.github.io/uAssets/thirdparties/easylist.txt) 😇
+    * [x] [AdGuard – Ads](https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt) ✅
+    * [x] [AdGuard - Mobile Ads](https://filters.adtidy.org/extension/ublock/filters/11.txt) ✅
+
+</details>
+
+* <details><summary>Privacy</summary>
+
+    * [x] [EasyPrivacy](https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt) 😇
+    * [x] [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt) ✅
+    * [x] [AdGuard URL Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/17.txt) ✅
+    * [x] [Block Outsider Intrusion into LAN](https://ublockorigin.github.io/uAssets/filters/lan-block.txt) ✅
+
+</details>
+
+* <details><summary>Malware protection, security</summary>
+
+    * [x] [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/urlhaus-filter/urlhaus-filter-ag-online.txt) 😇
+    * [x] [Phishing URL Blocklist](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt) ✅
+
+</details>
+
+* <details><summary>Multipurpose</summary>
+
+    * [x] [Peter Lowe’s Ad and tracking server list](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext) 😇
+    * [x] [Dan Pollock’s hosts file](https://someonewhocares.org/hosts/hosts) ✅
+
+</details>
+
+* <details><summary>Cookie notices</summary>
+
+    * <details><summary>✅ EasyList/uBO – Cookie Notices ✅</summary>
+
+        * [x] [EasyList - Cookie Notices](https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt) ✅
+        * [x] [uBlock filters - Cookie Notices](https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt) ✅
+
+        </details>
+
+    * <details><summary>✅ AdGuard/uBO – Cookie Notices ✅</summary>
+
+        * [x] [AdGuard - Cookie Notices](https://filters.adtidy.org/extension/ublock/filters/18.txt) ✅
+        * [x] [uBlock filters - Cookie Notices](https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt) ✅
+
+        </details>
+</details>
+
+* <details><summary>Social widgets</summary>
+
+    * [x] [EasyList - Social Widgets](https://ublockorigin.github.io/uAssets/thirdparties/easylist-social.txt) ✅
+    * [x] [AdGuard - Social Widgets](https://filters.adtidy.org/extension/ublock/filters/4.txt) ✅
+    * [x] [Fanboy - Anti-Facebook](https://secure.fanboy.co.nz/fanboy-antifacebook.txt) ✅
+
+</details>
+
+* <details><summary>Annoyances</summary>
+
+    * <details><summary>✅ EasyList - Annoyances ✅</summary>
+
+        * [x] [EasyList - Chat Widgets](https://ublockorigin.github.io/uAssets/thirdparties/easylist-chat.txt) ✅
+        * [x] [EasyList – Newsletter Notices](https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt) ✅
+        * [x] [EasyList - Notifications](https://ublockorigin.github.io/uAssets/thirdparties/easylist-notifications.txt) ✅
+        * [x] [EasyList - Other Annoyances](https://ublockorigin.github.io/uAssets/thirdparties/easylist-annoyances.txt) ✅
+
+        </details>
+
+    * <details><summary>✅ AdGuard - Annoyances 🚀</summary>
+
+        * [x] [AdGuard - Mobile App Banners](https://filters.adtidy.org/extension/ublock/filters/20.txt) ✅
+        * [x] [AdGuard – Other Annoyances](https://filters.adtidy.org/extension/ublock/filters/21.txt) ✅
+        * [x] [AdGuard – Popup Overlays](https://filters.adtidy.org/extension/ublock/filters/19.txt) ✅
+        * [x] [AdGuard – Widgets](https://filters.adtidy.org/extension/ublock/filters/22.txt) ✅
+
+        </details>
+    * [x] [uBlock filters – Annoyances](https://ublockorigin.github.io/uAssets/filters/annoyances.txt) ✅
+
+</details>
 
 <br>
 
-Ads:
+## External Lists
 
-* ⭐️ `EasyList` -> ✅
+We can now go over what lists you should **manually import** to uBlock Origin.
 
-* ⭐️ `AdGuard - Ads` -> ✅
+I would generally recommend importing & enabling the following:
 
-* ⭐️ `AdGuard - Mobile Ads` -> ✅
+### Privacy
+
+* ⭐️ **➗ Actually Legitimate URL Shortener Tool**
+
+    ``` https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+    ```
+
+* ⭐️ **🔍 yokoffing's Block third party fonts**
+
+    ```https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
+    ```
+
+* ⭐️ **⛔ yokoffing's click2load filters**
+
+    ```https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
+    ```
+
+* ⭐️ **Divested Fingerprinting Blocklist**
+
+    ```https://divested.dev/blocklists/Fingerprinting.ubl
+    ```
+
+### Malware protection, security
+
+* ⭐️ **⚠️ BadBlock - Unsafe**
+
+    ```https://badblock.celenity.dev/abp/unsafe.txt
+    ```
+
+* ⭐️ **💊 Dandelion Sprout's Anti-Malware List**
+
+    ```https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
+    ```
+
+* ⭐️ **🔏 HaGeZi's Dynamic DNS Blocklist**
+
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/dyndns.txt
+    ```
+
+* ⭐️ **💻 HaGeZi's Badware Hoster Blocklist**
+
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
+    ```
+
+* ⭐️ **🔐 HaGeZi's Threat Intelligence Feeds**
+
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt
+    ```
+
+* ⭐️ **FMHY Unsafe sites filterlist - Plus**
+
+    ```https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
+    ```
+
+### Multipurpose
+
+* ⭐️ **📙 HaGeZi Multi PRO++**
+
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt
+    ```
 
 <br>
 
-Privacy:
+**Additionally**, if you're fine with occasional breakage at the cost of enhanced privacy & security, you could also consider using:
 
-* ⭐️ `EasyPrivacy` -> ✅
+* ⭐️ **1Hosts (Pro)**
 
-* ⭐️ `AdGuard Tracking Protection` -> ✅
+    ```https://badmojr.gitlab.io/1hosts/Pro/adblock.txt
+    ```
 
-* ⭐️ `AdGuard URL Tracking Protection` -> ✅
+* ⭐️ My **🔇 BadBlock** OR **🔥 BadBlock+**
 
-* ⭐️ `Block Outsider Intrusion into LAN` -> ✅
+    * Do **not** use both together, pick whichever works best for you!
 
-<br>
+        * **🔇 BadBlock**:
+            ```https://badblock.celenity.dev/abp/badblock.txt
+            ```
+        * **🔥 BadBlock+**:
+            ```https://badblock.celenity.dev/abp/badblock_plus.txt
+            ```
 
-Malware protection, security:
+* ⭐️ **Divested Combined Blocklist**
 
-* ⭐️ `Online Malicious URL Blocklist` -> ✅
+    ```https://divested.dev/hosts-domains-wildcards
+    ```
 
-* ⭐️ `Phishing URL Blocklist` -> ✅
+* ⭐️ **📕 HaGeZi - Multi ULTIMATE**
 
-<br>
+    > [!NOTE]
+    > **Disable HaGeZi - Multi Pro++ from above if you decide to use this list.**
 
-Multipurpose:
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt
+    ```
 
-* ⭐️ `Peter Lowe's Ad and tracking server list` -> ✅
-
-* ⭐️ `Dan Pollock's hosts file` -> ✅
-
-<br>
-
-Cookie notices:
-
-* ⭐️ `EasyList/uBO - Cookie Notices` -> ✅
-
-* ⭐️ `AdGuard/uBO - Cookie Notices` -> ✅
-
-<br>
-
-Social widgets:
-
-* ⭐️ `EasyList - Social Widgets` -> ✅
-
-* ⭐️ `AdGuard - Social Widgets` -> ✅
-
-* ⭐️ `Fanboy - Anti-Facebook` -> ✅
-
-<br>
-
-Annoyances:
-
-* ⭐️ `EasyList - Annoyances` -> ✅
-
-* ⭐️ `AdGuard - Annoyances` -> ✅
-
-* ⭐️ `uBlock filters - Annoyances` -> ✅
-
-<br>
-
-Custom:
-
-I would recommend importing the following lists:
-
-* ⭐️ `Actually Legitimate URL Shortener Tool` - `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt`
-
-* ⭐️ `Divested - Fingerprinting` - `https://divested.dev/blocklists/Fingerprinting.ubl`
-
-* ⭐️ Yokoffing's `Block third party fonts`: `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
-
-Additionally, if you don't have a DNS content blocking solution in place *(you should)*, or you just can't use the relevant list on your DNS blocker, you should import the following:
-
-* ⭐️ My `BadBlock`: `https://codeberg.org/celenity/BadBlock/raw/branch/main/abp/badblock.txt`
-
-* ⭐️ `Dandelion Sprout's Anti-Malware List`: `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt`
-
-* ⭐️ `Divested Combined Blocklist`: `https://divested.dev/hosts-domains-wildcards`
-
-* ⭐️ `HaGeZi's Badware Host Blocking`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt`
+Furthermore, **if you don't have a DNS content blocking solution in place *(you should)***, or you just can't use the relevant list on your DNS blocker, you could also use the following:
 
 * ⭐️ `HaGeZi's Most Abused TLDs`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt`
-
-* ⭐️ `HaGeZi Multi PRO++`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt`
-
-* ⭐️ `HaGeZi's Threat Intelligence Feeds`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.txt`
 
 * ⭐️ `HaGeZi/xRuffKez's Newly Registered Domains (14 days)`: `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
 
 * ⭐️ `OISD - Big`: `https://big.oisd.nl`
-
-Additionally, if you're fine with a little breakage, I would highly recommend:
-
-* ⭐️ My `BadBlock` **+** instead of `BadBlock`: `https://codeberg.org/celenity/BadBlock/raw/branch/main/abp/badblock_plus.txt`
-
-* ⭐️ `1Hosts Pro`: `https://o0.pages.dev/Pro/adblock.txt`
-
-* ⭐️ `HaGeZi Multi` **Ultimate** instead of `HaGezi Multi` **Pro++**: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt`
 
 Once you're finished choosing your lists, don't forget to select **Apply changes** & **Update now**.
 
