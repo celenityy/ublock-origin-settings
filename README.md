@@ -224,14 +224,17 @@ I would generally recommend importing & enabling the following:
     ```https://badmojr.gitlab.io/1hosts/Pro/adblock.txt
     ```
 
-* ⭐️ My **🔇 BadBlock** OR **🔥 BadBlock+**
+* ⭐️ My **⚡️ BadBlock Lite**, **🔇 BadBlock**, OR **🔥 BadBlock+**
 
-    * Do **not** use both together, pick whichever works best for you!
+    * Do **not** use all 3 together, pick **one** that works best for you! **🔇 BadBlock** is recommended for most users.
 
-        * **🔇 BadBlock**:
+        * **⚡️ BadBlock Lite**
+            ```https://badblock.celenity.dev/abp/badblock_lite.txt
+            ```
+        * **🔇 BadBlock**
             ```https://badblock.celenity.dev/abp/badblock.txt
             ```
-        * **🔥 BadBlock+**:
+        * **🔥 BadBlock+**
             ```https://badblock.celenity.dev/abp/badblock_plus.txt
             ```
 
@@ -250,11 +253,17 @@ I would generally recommend importing & enabling the following:
 
 Furthermore, **if you don't have a DNS content blocking solution in place *(you should)***, or you just can't use the relevant list on your DNS blocker, you could also use the following:
 
-* ⭐️ `HaGeZi's Most Abused TLDs`: `https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt`
+* ⭐️ **HaGeZi's Most Abused TLDs**
+    ```https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt
+    ```
 
-* ⭐️ `HaGeZi/xRuffKez's Newly Registered Domains (14 days)`: `https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt`
+* ⭐️ **HaGeZi/xRuffKez's Newly Registered Domains (14 days)**
+    ```https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-14day_adblock.txt
+    ```
 
-* ⭐️ `OISD - Big`: `https://big.oisd.nl`
+* ⭐️ **OISD - Big**
+    ```https://big.oisd.nl
+    ```
 
 Once you're finished choosing your lists, don't forget to select **Apply changes** & **Update now**.
 
