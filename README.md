@@ -20,7 +20,7 @@ Privacy:
 
 Default behavior:
 
-* **Disable JavaScript** -> ✅ *(This **will** cause breakage, but it heavily improves privacy & security, so I'd recommend enabling it if possible and if you're willing to re-enable JavaScript that need it)*
+* **Disable JavaScript** -> ✅ *(This **will** cause breakage, but it heavily improves privacy & security, so I'd recommend enabling it if possible and if you're willing to re-enable JavaScript for websites that need it)*
 
 <br>
 
@@ -40,14 +40,14 @@ Advanced:
 
 # Lists
 
-I would generally recommend configuring your filterlists as follows. This configuration matches [what my Phoenix project uses](https://codeberg.org/celenity/Phoenix/wiki/Content-Blocking.md), & is carefully considered for a balance between privacy, security, usability, & maintaining optimal performance.
+I would generally recommend configuring your filterlists as follows. This configuration matches [what my 'Phoenix' project uses](https://phoenix.celenity.dev/content-blocking), has been thoroughly tested, & is carefully considered for a balance between privacy, security, usability, & maintaining optimal performance.
 
 ## Built-in Lists
 
-We'll first go over lists built-in to uBlock Origin (as of October 23, 2024).
+We'll first go over lists built-in to uBlock Origin.
 
 > [!NOTE]
->I won't detail the **Regions, languages** category, as it heavily depends on you personally & your situation. My recommendation would be to **only** enable the lists you need here, if you need them at all.
+>I won't detail the **Regions, languages** category, as it heavily depends on you personally. My recommendation would be to **only** enable the lists you need here, if you need them at all.
 
 > [!TIP]
 > 😇 means the list is enabled by default.
@@ -134,7 +134,7 @@ We'll first go over lists built-in to uBlock Origin (as of October 23, 2024).
 
         </details>
 
-    * <details><summary>✅ AdGuard - Annoyances 🚀</summary>
+    * <details><summary>✅ AdGuard - Annoyances ✅</summary>
 
         * [x] [AdGuard - Mobile App Banners](https://filters.adtidy.org/extension/ublock/filters/20.txt) ✅
         * [x] [AdGuard – Other Annoyances](https://filters.adtidy.org/extension/ublock/filters/21.txt) ✅
@@ -376,7 +376,7 @@ If you don't want as much breakage, you could potentially only set:
 * * 3p-frame block
 ```
 
-This only blocks 3rd party frames, while keeping other resources untouched. I would recommend this if you have the tolerance to allow 3rd party frames for pages that need them.
+This only blocks 3rd party frames, while keeping other resources untouched. I would recommend this if you have the tolerance to allow 3rd party frames for pages that need them, but still want a nice boost in privacy, security, & performance.
 
 I then set the following to allow CAPTCHAs for sites:
 
@@ -394,7 +394,7 @@ x.com twitter.com * noop
 twitter.com x.com * noop
 ```
 
-⭐️ If you block 3rd party connections like me, then I would strongly recommend also using the [LocalCDN](https://www.localcdn.org/) extension with the following settings, as this will reduce breakage:
+⭐️ If you block 3rd party connections like me, then I would recommend also using the [LocalCDN](https://www.localcdn.org/) extension with the following settings, as this will reduce breakage:
 
 # LocalCDN -> Basic
 
@@ -480,10 +480,10 @@ Once you're done configuring your rules here, select **Save** & **Commit**.
 
 # Additional recommendations
 
-* Use [Firefox](https://www.mozilla.org/firefox/) with my [Phoenix](https://phoenix.celenity.dev), as Firefox respects your privacy and [has the best support for uBlock Origin](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox).
+* Use [Firefox](https://www.mozilla.org/firefox/) with my [Phoenix](https://phoenix.celenity.dev), as Firefox respects your privacy and [has the best support for uBlock Origin](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox). **You do not need to configure uBlock Origin with this guide if you use Phoenix, as it is already pre-configured out of the box.**
 
 * Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), & [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/)).
 
-* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/celenity/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/). *(Even if you have a private/secure DNS provider set on your OS/network level, make sure to also set it in your browser as well, so that you can take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello))*
+* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/celenity/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/).
 
 * Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). **NOTE:** You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
