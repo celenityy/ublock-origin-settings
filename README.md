@@ -300,7 +300,7 @@ xn--*
 xn--*$doc,popup,frame
 ```
 
-I usually set the following to always enforce blocking Google's Doubleclick & Google Analytics: *((Why?)[https://github.com/gorhill/uBlock/wiki/Privacy-stuff])*
+I usually set the following to always enforce blocking Google's Doubleclick & Google Analytics: *[Why?](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)*
 
 ```sh
 ||doubleclick.net^$important
