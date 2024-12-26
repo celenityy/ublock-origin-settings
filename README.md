@@ -171,7 +171,7 @@ I would generally recommend importing & enabling the following:
 * ⭐️ **⛔ yokoffing's click2load filters**
 
     ```sh
-    https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
+    https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt
     ```
 
 * ⭐️ **Divested Fingerprinting Blocklist**
