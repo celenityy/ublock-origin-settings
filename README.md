@@ -58,7 +58,7 @@ Select the cog to the right of **I am an advanced user**, and consider configuri
 
 # Lists
 
-I would generally recommend configuring your filterlists as follows. This configuration matches [what my 'Phoenix' project uses](https://phoenix.celenity.dev/content-blocking), has been thoroughly tested, & is carefully considered for a balance between privacy, security, usability, & maintaining optimal performance.
+I would generally recommend configuring your filterlists as follows. This configuration matches [what my 'Phoenix' project uses](https://phoenix.celenity.dev/content-blocking), has been thoroughly tested and carefully considered to provide a balance between privacy, security, usability, and performance.
 
 ## Built-in Lists
 
